@@ -18,6 +18,31 @@
     	margin: 0 auto; 
     	overflow: hidden;
     }
+
+    .svgWrap {
+      position: inherit;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+  }
+  path{
+    stroke: #353535;
+    fill: #353535;
+    stroke-dasharray: 2290;
+    opacity: 10;
+    animation: animate 3s cubic-bezier(.17,.67,.83,.67);
+    animation-timing-function: linear;
+  }
+
+
+    .textOne{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    margin-top: 15%
+
+    }
     
     a {
       text-decoration: none;
@@ -55,120 +80,14 @@
       margin-top: 0;
       margin-bottom: 10px;
     }
-    
-    .pointer {
-      color: #9b59b6;
-      font-family: 'Pacifico', cursive;
-      font-size: 30px;
-      margin-top: 15px;
-    }
-    code {
-      margin: 20px 1%;
-      float: left;
-      width: 48%;
-      height: 105px;
-      background: rgba(0,0,0,0.1);
-      border: rgba(0,0,0,0.05) 5px solid;
-      border-radius: 5px;
-      padding:5px;
-      color: white;
-      text-align: center;
-      font-size: 15px;
-      margin-top: 25px;
-      display: block;
-      box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-    }
-    code.html {
-      color: #7EC9E6;
-    }
-    code.js {
-      color: #FFAD00;
-    }
-
-    .main {
-      float: left;
-      width: 100%;
-      margin: 0 auto;
-    }
-    
-    .main h1 {
-      padding:150px 50px;
-      float: left;
-      width: 100%;
-      font-size: 45px;
-      box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      font-weight: 100;
-      color: white;
-      margin: 0;
-    }
-   
-    .main h1.demo1 {
-      background: #1ABC9C;
-    }
-    
-    .reload.bell {
-      font-size: 12px;
-      padding: 20px;
-      width: 45px;
-      text-align: center;
-      height: 47px;
-      border-radius: 50px;
-      -webkit-border-radius: 50px;
-      -moz-border-radius: 50px;
-    }
-    
-    .reload.bell #notification {
-      font-size: 25px;
-      line-height: 140%;
-    }
-    
-    .reload, .btn{
-      display: inline-block;
-      border: 4px solid #A2261E;
-      border-radius: 5px;
-      -moz-border-radius: 5px;
-      -webkit-border-radius: 5px;
-      background: #CC3126;
-      display: inline-block;
-      line-height: 100%;
-      padding: 0.7em;
-      text-decoration: none;
-      color: #fff;
-      width: 100px;
-      line-height: 140%;
-      font-size: 17px;
-      font-family: open sans;
-      font-weight: bold;
-    }
-    .reload:hover{
-      background: #444;
-    }
-    .btn {
-      width: 200px;
-      color: rgb(255, 255, 255);
-      border: 4px solid rgb(0, 0, 0);
-      background: rgba(3, 3, 3, 0.75);
-    }
-    .clear {
-      width: auto;
-    }
-    .btn:hover, .btn:hover {
-      background: #444;
-    }
-    .btns {
-      width: 410px;
-      margin: 50px auto;
-    }
     .credit {
       text-align: center;
-      color: rgba(0,0,0,0.5);
       padding: 10px;
       width: 410px;
       clear: both;
+      color: white;
+      background-color: #9C9C9C;
+      font-family: monospace;
     }
     .credit a {
       color: rgba(0,0,0,0.85);
@@ -217,68 +136,49 @@
       overflow: hidden;
     }
     
-    .main section > img {
-      position: absolute;
-      max-width: 100%;
-      z-index: 1;
-    }
-    
     .main section.page1 {
-      background:rgb(230, 217, 200);
-    }
-    .main section.page1 h1 {
-      text-align: left;
-      padding: 0;
-      margin-bottom: 15px;
-      font-size: 70px;
-      color: black;
+      background-image: url(../ressources/background/mountains.jpg);
+        background-position: center;
     }
     .main section.page1 h2 {
-      color: rgba(0,0,0,0.85);
+    
+      font-family: monospace;
       text-align: center;
       width: 435px;
       line-height: 160%;
-    }
-    .main section .page_container .btns {
-      clear: both;
-      float: left;
-      text-align: center;
-      width: 435px;
-    }
-    .main section .page_container .btns a{
-      text-align: center;
+      color: white;
+      background-color: #9C9C9C;
     }
     .main section.page2 {
-      background: #555557 url(back-phone.png) no-repeat center -150px ;
-    }
-    .main section.page2 > img {
-      position: absolute;
-      top: -300px;
-      left: 50%;
-      margin-left: -1095px;
+    background: #555557 ;
+    flex-direction: column;
     }
     .main section.page2 .page_container {
       margin-top: 240px;
       overflow: hidden;
     }
-    .main section.page2 h1 {
-      text-align: center;
-      padding: 0;
-      margin-bottom: 15px;
-      font-size: 50px;
-      letter-spacing: -1px;
-      color: white;
-    }
-    .main section.page2 h2 {
-      color: rgba(255,255,255,0.85);
-      text-align: center;
-      line-height: 160%;
-      font-weight: 100;
-    }
-    .viewing-page-2 .back{
-      background: rgba(0, 0, 0, 0.25);
-      color: #FFF;
-      }
+
+.p2Top{
+    background-color:red;
+    height: 20%;
+    align-content:space-between
+}
+.p2Text{
+    flex-direction: row;
+    height: 50%;
+    display: flex
+}
+.whoIam{
+    height: 50%;
+    width: 50%;
+    background-color: darkturquoise;
+}
+.comptence{
+    height: 50%;
+    width: 50%;
+    background-color: blueviolet;
+}
+    
     .main section.page3 {
       background:url(tilted-phone.png) no-repeat 156px -150px ;
     }
@@ -349,3 +249,60 @@
       margin-right: auto;
       right: 0;
     }
+
+    @keyframes animate {
+      0% {
+          opacity: 0;
+          fill: none;
+          stroke-dasharray: 0;
+      } 5% {
+            stroke-dasharray: 100;
+      } 10% {
+            stroke-dasharray: 200;
+      } 15% {
+            stroke-dasharray: 300;
+      } 20% {
+            stroke-dasharray: 400;
+      } 25% {
+            stroke-dasharray: 500;
+      } 30% {
+            stroke-dasharray: 600;
+      } 35% {
+            stroke-dasharray: 700;
+      } 40% {
+            stroke-dasharray: 800;
+      } 45% {
+            stroke-dasharray: 900;
+      } 50% {
+            stroke-dasharray: 1000;
+      } 55% {
+            stroke-dasharray: 1100;
+      } 60% {
+            stroke-dasharray: 1200;
+      } 65% {
+            stroke-dasharray: 1300;
+      } 70% {
+            stroke-dasharray: 1400;
+      } 75% {
+            stroke-dasharray: 1500;
+      } 80% {
+            stroke-dasharray: 1600;
+      } 85% {
+            stroke-dasharray: 1700;
+      } 90% {
+            stroke-dasharray: 1900;
+      } 92% {
+            stroke-dasharray: 2000;
+      } 94% {
+            stroke-dasharray: 2100;
+      } 95% {
+            stroke-dasharray: 2200;
+      } 98% {
+            fill: rgba(255,255,255,0);
+            stroke-dasharray: 2280;
+      } 100% {
+            opacity: 10;
+            fill: rgba(255,255,255,1);!important
+            stroke-dasharray: 2290;
+      }
+  }
