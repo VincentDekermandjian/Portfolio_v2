@@ -21,10 +21,10 @@
 
     .svgWrap {
       position: inherit;
-      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 80%;
+    margin-top: 10%;
   }
   path{
     stroke: #353535;
@@ -40,7 +40,7 @@
       display: flex;
       align-items: center;
       flex-direction: column;
-    margin-top: 15%
+      margin-top: 10%
 
     }
     
@@ -127,7 +127,7 @@
     }
     .main section .page_container {
       position: relative;
-      top: 25%;
+      top: 20%;
       margin: 0 auto 0;
       max-width: 950px;
       z-index: 3;
@@ -153,55 +153,66 @@
     background: #555557 ;
     flex-direction: column;
     }
-    .main section.page2 .page_container {
-      margin-top: 240px;
-      overflow: hidden;
-    }
 
+.page_container2{
+    
+}
 .p2Top{
-    background-color:red;
-    height: 20%;
-    align-content:space-between
+   max-height: 10%;
+}
+.p2Top img{
+    height: 200px;
+    margin-top: 20px;
 }
 .p2Text{
     flex-direction: row;
     height: 50%;
-    display: flex
+    display: flex;
+    margin: 22px ;
+
 }
 .whoIam{
     height: 50%;
-    width: 50%;
-    background-color: darkturquoise;
+    width: 55%;
+    margin-left: 20px
+}
+.whoIam h2{
+    color: #1B9DB7;
+    text-align: justify; 
+}
+.whoIam p{
+    color: white;
+    text-align: left;
 }
 .comptence{
     height: 50%;
-    width: 50%;
-    background-color: blueviolet;
+    width: 30%;
+    margin: auto;
+}
+.comptence h2{
+    color: #1B9DB7;
+    text-align: right; 
+}
+.comptence p{
+    color: white;
+    text-align: right;
+    
+}
+.p2Tools h2{
+        color: #1B9DB7;
+}
+.p2Tools img{
+    width: auto;
+    height: 80px;
+    padding-top:15px
 }
     
-    .main section.page3 {
-      background:url(tilted-phone.png) no-repeat 156px -150px ;
-    }
     .main section.page3 .page_container {
       overflow: hidden;
       width: 500px;
       right: -285px;
     }
-    .main section.page3 h1 {
-      text-align: left;
-      padding: 0;
-      margin-bottom: 0;
-      font-size: 70px;
-      letter-spacing: -1px;
-      color: black;
-    }
-    .main section.page3 h2 {
-      color: rgba(0,0,0,0.85);
-      text-align: left;
-      line-height: 160%;
-      font-weight: 100;
-      font-size: 21px;
-    }
+ 
     
     body.disabled-onepage-scroll .onepage-wrapper  section {
       min-height: 100%;

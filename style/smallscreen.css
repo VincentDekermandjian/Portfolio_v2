@@ -1,0 +1,62 @@
+@media screen and (max-width: 640px) {
+    .main section.page2 {
+        background: #555557;
+        flex-direction: column;
+    }
+
+    .page_container2 {}
+
+    .p2Top {
+        max-height: 10%;
+    }
+
+    .p2Top img {
+        height: 180px;
+        margin-top: 20px;
+    }
+
+    .p2Text {
+        flex-direction: column;
+        height: 25%;
+        display: flex;
+
+    }
+
+    .whoIam {
+        height: 25%;
+        width: 100%;
+        
+    }
+
+    .whoIam h2 {
+        color: #1B9DB7;
+        text-align: left;
+        margin-left: -16px;
+    }
+
+    .whoIam p {
+        color: white;
+        text-align: left;
+        font-size: 75%;
+        width: 100%;
+        margin-left: -15px
+        
+        
+    }
+
+    .comptence {
+        height: 50%;
+        width: 100%;
+    }
+
+    .comptence h2 {
+        text-align: center;
+        color: #1B9DB7
+    }
+    .comptence p{
+    text-align: center;
+    font-size: 80%;
+        
+
+    }
+}
