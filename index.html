@@ -14,7 +14,9 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+    <script type="text/javascript" src="./Script/jquery.onepage-scroll.js"></script>
+    <script src="./Script/jquery.mosaic.js"></script>
+    <link href="./style/jquery.mosaic.css" rel="stylesheet">
     <link href='./style/onepage-scroll.css' rel='stylesheet' type='text/css'>
     <link href='./style/main.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" media="screen and (max-width: 640px)" href="./style/smallscreen.css" type="text/css" />
@@ -51,7 +53,6 @@
                                     stroke-width: 3;
                                     stroke-miterlimit: 10;
                                 }
-
                             </style>
                             <g>
                                 <rect x="-8.67" y="20" class="st0" width="1125.67" height="480" />
@@ -172,22 +173,62 @@
                             <img src="ressources/Tools_png/office.png" />
                             <img src="ressources/Tools_png/postman.png" />
 
+
+
                         </div>
                     </div>
                 </div>
             </section>
 
             <section class="page3">
-                <div class="page_container">
+                <div class="p3title">
+                    <h2><strong>Culture</strong></h2>
                 </div>
-        </div>
-        </section>
-        <section class="page4">
-            <div class="page_container">
+                <div id="styleMosaic">
+                <div id="mosaic" class="mosaic">
+                    <img src="./ressources/culture/1.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/2.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/3.jpg" data-high-res-image-src="high-1.jpg">
 
-            </div>
-    </div>
-    </section>
+                    <img src="./ressources/culture/4.png" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/5.svg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/6.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/7.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/8.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/9.png" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/10.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/11.jpeg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/12.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/13.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/14.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/15.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/16.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/17.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/18.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/19.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/20.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/21.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/22.png" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/23.jpg" data-high-res-image-src="high-1.jpg">
+                    <img src="./ressources/culture/24.jpg" data-high-res-image-src="high-1.jpg">
+                    <iframe src="https://open.spotify.com/embed/user/11179709392/playlist/2qpSghhbvRknOjTxJD1LPA" width="250" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"
+                    data-high-res-image-src="high-1.jpg"></iframe>
+                </div>
+                    </div>
+                <script>
+     $('#mosaic').Mosaic({
+		maxRowHeight: 150,
+		highResImagesWidthThreshold: 340
+	});
+
+
+                </script>
+            </section>
+            <section class="page4">
+                <div class="page_container">
+
+                </div>
+        </section>
 </body>
 
 </html>

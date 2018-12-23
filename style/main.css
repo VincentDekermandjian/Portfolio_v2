@@ -206,13 +206,24 @@
     height: 80px;
     padding-top:15px
 }
+.page3{
+    display: flex;
+    flex-direction: column
+}
+.p3title{
+    margin-top: 40px
+}
+
+.p3title h2{
+    color: #273942;
+    padding-bottom: 30px
+}
+#styleMosaic{
+    width: 90%;
+    margin: auto;
     
-    .main section.page3 .page_container {
-      overflow: hidden;
-      width: 500px;
-      right: -285px;
-    }
- 
+}
+
     
     body.disabled-onepage-scroll .onepage-wrapper  section {
       min-height: 100%;
