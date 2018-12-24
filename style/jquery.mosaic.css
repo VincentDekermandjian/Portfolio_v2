@@ -15,12 +15,13 @@
 .jQueryMosaic > div,
 .jQueryMosaic > a,
 .jQueryMosaic > img,
-.jQueryMosaic > video {
+.jQueryMosaic > video
+.jQueryMosaic > iframe{
 	float: left;
 }
 
 .jQueryMosaic > .item {
-	position: relative;
+	position: fixed;
 }
 
 .jQueryMosaic > .item.withImage {

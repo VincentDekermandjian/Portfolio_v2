@@ -2,7 +2,7 @@
       height: 100%;
     }
     body {
-      background: #E2E4E7;
+      background: #32373C;
       padding: 0;
       text-align: center;
       font-family: 'open sans';
@@ -200,6 +200,7 @@
 }
 .p2Tools h2{
         color: #1B9DB7;
+
 }
 .p2Tools img{
     width: auto;
@@ -208,22 +209,52 @@
 }
 .page3{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    background-color: #32373C
 }
 .p3title{
-    margin-top: 40px
+    padding-bottom:  15px;
+    background-color: #1B9DB7;
+
+        
 }
 
 .p3title h2{
-    color: #273942;
-    padding-bottom: 30px
-}
-#styleMosaic{
-    width: 90%;
-    margin: auto;
+    color: White;
+    margin-top: 25px;
     
 }
 
+.infobar {
+    border-bottom: 3px solid;
+    width: 80px;
+    display: flex;
+    color: white;
+    padding-top: 25px
+  
+
+}
+.page4{
+    margin-top: 20px;
+    background-color: #FFDBB9;
+    display: flex
+}
+.footerTop{
+    background-image: url(../ressources/background/laptop-2838921.jpg); 
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+
+
+
+}
+.footerBack{
+    height: 20%;
+    
+    
+}
     
     body.disabled-onepage-scroll .onepage-wrapper  section {
       min-height: 100%;
@@ -328,3 +359,4 @@
             stroke-dasharray: 2290;
       }
   }
+
