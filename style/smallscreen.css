@@ -59,13 +59,15 @@
         
 
     }
-    .footerTop{
-    background-image: url(../ressources/background/laptop.jpg); 
+    .footerTop{ 
     width: 100%;
-    height: 85vh;
+    height: auto;
     background-size: cover;
     background-position: center;
 }
+    .footerBack{
+        height: auto;
+    }
 }
 @media screen and (max-width: 500px){
     .textOne {

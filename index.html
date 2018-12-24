@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <!-- Key -->
     <meta name="description" content="Portfolio de Vincent Dekermandjian, Full Stack junior a Lyon">
     <meta name="keywords" content="developpeur web, web developper, portfolio, front end developper, developpeur front end, back end developper, Vincent Dekermandjian, vincent, developpeur web, integrateur web, developpeur front end, html, css, site internet, développement web, javascript, programmation, création site web, développeur lyon, wordpress, bootstrap">
     <meta name="author" content="Vincent Dekermandjian">
@@ -10,23 +11,31 @@
     <meta name="Copyright" content="Vincent Dekermandjian">
     <meta name="Category" content="portfolio développeur web">
     <meta property="og:title" content="Vincent Dekermandjian, Développeur Front End et Back End Lyon">
+    <!-- Style -->
     <link rel="canonical" href="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" />
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+    <!-- font -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <script type="text/javascript" src="./Script/jquery.onepage-scroll.js"></script>
-    <script src="./Script/jquery.mosaic.js"></script>
+    <!-- CSS -->
     <link href="./style/jquery.mosaic.css" rel="stylesheet">
     <link href='./style/onepage-scroll.css' rel='stylesheet' type='text/css'>
     <link href='./style/main.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" media="screen and (max-width: 640px)" href="./style/smallscreen.css" type="text/css" />
-    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <title>Vincent Dekermandjian - Portfolio - Développeur Full-Stack</title>
+    <!-- Scripts -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="./Script/jquery.onepage-scroll.js"></script>
+    <script src="./Script/jquery.mosaic.js"></script>
     <script>
+        //Define enable scroll function 
         $(document).ready(function() {
             $(".main").onepage_scroll({
                 sectionContainer: "section",
-                responsiveFallback: 600,
+                responsiveFallback: 700,
                 loop: true
             });
         });
@@ -196,7 +205,7 @@
                         <img src="./ressources/culture/6.jpg" data-high-res-image-src="high-1.jpg">
                         <img src="./ressources/culture/7.jpg" data-high-res-image-src="high-1.jpg">
                         <img src="./ressources/culture/9.png" data-high-res-image-src="high-1.jpg"><img src="./ressources/culture/25.jpg" data-high-res-image-src="high-4.jpg">
-        
+
                         <img src="./ressources/culture/10.jpg" data-high-res-image-src="high-1.jpg">
                         <img src="./ressources/culture/11.jpeg" data-high-res-image-src="high-1.jpg">
                         <img src="./ressources/culture/12.jpg" data-high-res-image-src="high-1.jpg">
@@ -226,16 +235,45 @@
                     $('#mosaic').Mosaic({
                         outerMargin: 30,
                         maxRowHeight: 180,
-                         showTailWhenNotEnoughItemsForEvenOneRow: true
+                        showTailWhenNotEnoughItemsForEvenOneRow: true
                     });
                 </script>
             </section>
             <section class="page4">
-                <div class="footerTop"></div>
-                <div class="footerBack" ></div>
+                <div class="footerTop">
+                    <div class="contact">
+                        <h1>Contact</h1>
+                    </div>
+                    <div class="infobar"></div>
+                    <div class="textFooter">
+                        <p>A project, a question or just want to exchange around a coffee? Send me a message</p>
+                    </div>
+                    <div class="contentFooter">
+        <div class="numberMail">
+                            <h2><strong><a href="mailto:v.dekermandjian@it-students.fr">v.dekermandjian@it-students.fr </a></strong></h2>
+                       
+                        <h2 style="text-align: center; color: white; margin-top: 10px;">+33 (0)7 83 85 87 28</h2>
+            </div>
+                           <a href="https://instagram.com/vincent_dkrn/" target="_blank"><button class="button button5"><i class="fab fa-instagram fa-2x "></i></button></a>
+                             <a href="https://github.com/VincentDekermandjian" target="_blank" ><button class="button button5"><i class="fab fa-github fa-2x"></i></button></a>
+                         <a href="https://twitter.com/vdekerma69" target="_blank" ><button class="button button5"><i class="fab fa-twitter fa-2x"></i></button></a>
+                         <a href="https://www.linkedin.com/in/vincent-dekermandjian/" target="_blank"><button class="button button5"><i class="fab fa-linkedin fa-2x"></i></button></a>
+                      
 
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="footerBack">
                 
+                </div>
+
+
             </section>
+
 </body>
+
 
 </html>

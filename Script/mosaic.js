@@ -1,4 +1,3 @@
-
 var MOSAIC_BASE_UNIT_PIXELS = 80; // counts as the ideal '1'
 var MOSAIC_MAX_UNITS = 2; // (ie. 2x2 units)
 var MOSAIC_BASE_UPLOAD_PATH = 'http://kitmoda.localhost/ktmaterial/uploads/';
