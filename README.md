@@ -7,18 +7,6 @@ Portfolio_v2
 Modern browsers such as Chrome, Firefox, and Safari on both desktop and smartphones have been tested. Should work fine on IE8 and IE9 as well.
 
 
-````html
-<body>
-  ...
-  <div class="main">
-    <section>...</section>
-    <section>...</section>
-    ...
-  </div>
-  ...
-</body>
-````
-
 ## Keyboard Shortcuts
 You can trigger page move with hotkeys as well:
 
