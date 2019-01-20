@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#26377E;}
+	.st2{fill:#E62D3B;}
+	.st3{fill:#039039;}
+	.st4{fill:#E1062D;}
+	.st5{fill:#FEC700;}
+	.st6{fill:#C71618;}
+	.st7{fill:#0A9639;}
+	.st8{fill:#EC641E;}
+	.st9{clip-path:url(#SVGID_2_);}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st11{clip-path:url(#SVGID_4_);}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#C01631;}
+	.st13{fill-rule:evenodd;clip-rule:evenodd;fill:#22315E;}
+	.st14{fill:#E03932;}
+	.st15{fill:#007D4D;}
+	.st16{fill:#FAB61C;}
+	.st17{clip-path:url(#SVGID_6_);fill:#26346D;}
+	.st18{clip-path:url(#SVGID_6_);fill:#FFFFFF;}
+	.st19{clip-path:url(#SVGID_6_);}
+	.st20{fill:#D0152C;}
+	.st21{fill:#262C61;}
+	.st22{fill:#F3E600;}
+	.st23{clip-path:url(#SVGID_8_);fill:#154E9E;}
+	.st24{clip-path:url(#SVGID_8_);}
+	.st25{fill:#64B446;}
+</style>
+<g>
+	<defs>
+		<path id="SVGID_5_" d="M15.739,6.787c5.044,0,9.133,4.089,9.133,9.133c0,5.044-4.089,9.133-9.133,9.133
+			c-5.044,0-9.133-4.089-9.133-9.133C6.606,10.876,10.695,6.787,15.739,6.787z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+	</clipPath>
+	<path style="clip-path:url(#SVGID_2_);fill:#26346D;" d="M15.739,6.787c5.044,0,9.133,4.089,9.133,9.133
+		c0,5.044-4.089,9.133-9.133,9.133c-5.044,0-9.133-4.089-9.133-9.133C6.606,10.876,10.695,6.787,15.739,6.787z"/>
+	<path style="clip-path:url(#SVGID_2_);fill:#FFFFFF;" d="M3.724,13.096h5.064L3.724,9.517v-2.05h2.897l7.094,4.963V5.266h3.991
+		v7.165l7.072-4.963H27.7v2.05l-5.089,3.579H27.7v5.612h-5.089l5.089,3.579v2.051h-2.922l-7.072-4.964v7.165h-3.991v-7.165
+		l-7.094,4.964H3.724v-2.051l5.064-3.579H3.724V13.096z"/>
+	<g class="st9">
+		<g>
+			<path class="st20" d="M27.7,7.467h-1.885l-8.003,5.626h1.916L27.7,7.467z M19.72,18.715l7.98,5.623v-1.34l-6.056-4.282H19.72z
+				 M11.742,13.093L3.724,7.467v1.344l6.086,4.282H11.742z M3.724,24.338h1.915l8.003-5.623h-1.916L3.724,24.338z M16.877,5.266
+				h-2.329v9H3.724v3.273h10.824v9.001h2.329v-9.001H27.7v-3.273H16.877V5.266z"/>
+		</g>
+	</g>
+</g>
+</svg>

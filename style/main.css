@@ -42,7 +42,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin-top: 10%
+        margin-top: 6%;
     }
 
     a {
@@ -151,6 +151,10 @@
         background-position: center;
     }
 
+#lang  {
+    margin-left: 80%;
+    margin-top: 2%
+}
     .main section.page1 h2 {
 
         font-family: monospace;
